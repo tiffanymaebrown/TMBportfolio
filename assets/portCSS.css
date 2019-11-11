@@ -1,0 +1,160 @@
+/*preset*/
+* {
+    font-family: serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h4 {
+    font-family: serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+/*nav*/
+header {
+    position: relative;
+}
+
+header img {
+    padding: 10px;
+    display: block;
+}
+
+nav {
+    position:absolute;
+    right: 37px;
+    top: 41px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+}
+
+
+/*footer*/
+footer {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+
+/*hero*/
+#hero {
+    background: linear-gradient(#555, #fff);
+    background-size: cover;
+    background-position: center bottom;
+    height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero div {
+    background: rgba(255, 255, 255, .35);
+    padding: 20px;
+    text-align: center;
+    max-width: 850px;
+    border-radius: 10px
+}
+
+#hero h1,
+#hero p {
+    margin-bottom: 20px;
+}
+
+
+/*portfolio*/
+#port {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+#port h1,
+#port p {
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+#port img {
+    border-radius: 50%;
+    border: 5px solid #000;
+}
+
+#port .col {
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/*cta*/
+#cta {
+    padding: 40px 0px;
+    text-align: center;
+    background: linear-gradient(#fff, #555);
+}
+
+#cta h1,
+#cta p {
+    margin-bottom: 20px;
+}
+
+#contact{
+        text-align: center;
+}

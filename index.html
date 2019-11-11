@@ -1,42 +1,55 @@
 <!doctype html>
 <html>
+
 <head>
-    <title>My Personal Site Home Page</title>
+    <title>Portfolio Home</title>
+    <link rel="stylesheet" href="assets/portCSS.css">
 </head>
 
 <body>
-    <!--Header-->
     <header>
-        <h1>Tiffany Mae Brown</h1>
+        <img src="assets/img/logo.jpg">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" target="_blank">About</a></li>
-                <li><a href="contacts.html" target="_blank">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <br>
-    <!--Div container with YouTube video and info about me-->
-    <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jh475gvsN-A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <h2>Tiffany M. Brown</h2>
-        <p>
-            My name is Tiffany Brown and my goal is to work as a <b>Full Stack Developer</b>.
-        </p>
-        <a href="contacts.html" target="_blank">Contact Me!</a>
+    <div id="hero">
+        <div>
+            <h1>My Promise</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p><a href="contact.html" class="btn">Contact Me</a></p>
+        </div>
     </div>
-    <br>
-    <!--Footer-->
-    <footer id="foot">
-        <h1>Tiffany Mae Brown</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" target="_blank">About</a></li>
-                <li><a href="contacts.html" target="_blank">Contact</a></li>
-            </ul>
-        </nav>
-        Copyright &copy; 2019 All Rights Reserved
+    <div id="port">
+        <h1>Featured Portfolio</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="container">
+            <div class="col c3">
+                <img src="assets/img/bird.jpg">
+                <h4>Project 1</h4>
+            </div>
+            <div class="col c3">
+                <img src="assets/img/dirtroad.jpg">
+                <h4>Project 2</h4>
+            </div>
+            <div class="col c3">
+                <img src="assets/img/tree.jpg">
+                <h4>Project 3</h4>
+            </div>
+        </div>
+    </div>
+    <div id="cta">
+        <div>
+            <h1>Contact Me Today</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p><a href="contact.html" class="btn">Contact Me</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2019. All rights reserved. </p>
     </footer>
 </body></html>
