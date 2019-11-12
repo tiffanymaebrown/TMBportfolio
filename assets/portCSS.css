@@ -35,7 +35,7 @@ img {
 }
 
 .btn:hover {
-    background: #fff;
+    background: #C97F70;
     color: #000;
 }
 
@@ -43,17 +43,19 @@ img {
 /*nav*/
 header {
     position: relative;
+    display: block
 }
 
-header img {
-    padding: 10px;
-    display: block;
+.logo {
+    color: #C97F70;
+    font-size: 50px;
+    font-family: serif;
 }
 
 nav {
-    position:absolute;
-    right: 37px;
-    top: 41px;
+    position: absolute;
+    right: 20px;
+    top: 9px;
 }
 
 nav ul {
@@ -74,9 +76,9 @@ nav a {
 }
 
 nav a:hover {
-    border: 1px solid #000;
-    background: #000;
-    color: #fff;
+    background: #C97F70;
+    color: #000;
+    border: none;
 }
 
 
@@ -143,6 +145,7 @@ footer p {
     margin: 0 auto;
 }
 
+
 /*cta*/
 #cta {
     padding: 40px 0px;
@@ -155,6 +158,99 @@ footer p {
     margin-bottom: 20px;
 }
 
-#contact{
-        text-align: center;
+
+/*about me*/
+#me {
+    text-align: center;
+    background: linear-gradient(#555, #fff);
+    font-size: 20px;
+    padding: 40px 0px 0px 0px;
+}
+
+#me h1,
+#me p {
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+#me img {
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.container {
+    display: flex;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+#me .col .c25 {
+    flex: 25%;
+    padding: 10px;
+}
+
+#me .col .c75 {
+    flex: 75%;
+    padding: 10px;
+}
+
+#mebtn {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+#mebtn .btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+#mebtn .btn:hover {
+    background: #C97F70;
+    color: #000;
+}
+
+
+/*contact form and map*/
+#contact {
+    text-align: center;
+    background: linear-gradient(#555, #fff);
+    font-size: 20px;
+    padding: 40px 0px 0px 0px;
+}
+
+#contact h1 {
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+#submit {
+    text-align: center;
+}
+
+#submit .subbtn {
+    font-size: 20px;
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    border-style: none;
+    max-width: 850px;
+    display: inline-block;
+    padding: 10px;
+}
+
+#submit .subbtn:hover {
+    background: #C97F70;
+    color: #000;
+}
+
+#map {
+    text-align: center;
 }
