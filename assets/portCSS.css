@@ -78,7 +78,7 @@ nav a {
 nav a:hover {
     background: #C97F70;
     color: #000;
-    border: none;
+    border: 1px solid #C97F70;
 }
 
 
@@ -90,6 +90,22 @@ footer {
 
 footer p {
     font-size: 14px;
+        display: inline-block;
+}
+
+footer a {
+    display: block;
+    padding: 4px;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background: #C97F70;
+    color: #000;
+    border: 1px solid #C97F70;
 }
 
 
@@ -120,7 +136,7 @@ footer p {
 
 /*portfolio*/
 #port {
-    padding: 40px 0px;
+    padding: 20px 0px;
     text-align: center;
 }
 
@@ -133,6 +149,10 @@ footer p {
 #port img {
     border-radius: 50%;
     border: 5px solid #000;
+}
+
+#port img:hover {
+    border: 5px solid #C97F70;
 }
 
 #port .col {
@@ -148,9 +168,8 @@ footer p {
 
 /*cta*/
 #cta {
-    padding: 40px 0px;
+    padding: 20px 0px;
     text-align: center;
-    background: linear-gradient(#fff, #555);
 }
 
 #cta h1,
